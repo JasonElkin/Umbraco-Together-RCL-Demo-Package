@@ -1,0 +1,14 @@
+﻿{
+  "javascript": [ "/fontawesome-5-picker/all.js" ],
+  "propertyEditors": [
+    {
+      "name": "Font Awesome 5 Icon Picker",
+      "alias": "fontAwesome5Picker",
+      "editor": {
+        "valueType": "STRING",
+        "view": "/fontawesome-5-picker/edit.html"
+      },
+      "icon": "icon-flag-alt"
+    }
+  ]
+}
