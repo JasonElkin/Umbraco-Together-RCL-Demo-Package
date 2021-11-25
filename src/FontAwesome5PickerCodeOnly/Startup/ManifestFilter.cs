@@ -10,7 +10,7 @@ namespace FontAwesome5Picker.Startup
 
             var manifest = new PackageManifest() { 
                 PackageName = "Font Awesome 5 Picker",
-                Scripts = new string[] { "/fontawesome-5-picker/all.js" }
+                Scripts = new string[] { "/_content/FontAwesome5Picker/all.js" }
             };
 
             manifests.Add(manifest);

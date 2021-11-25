@@ -28,7 +28,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\FontAwesome5PickerCodeOnly\FontAwesome5PickerCodeOnly.csproj" />
+      <ProjectReference Include="..\FontAwesome5Picker\FontAwesome5Picker.csproj" />
     </ItemGroup>
 
     <PropertyGroup>

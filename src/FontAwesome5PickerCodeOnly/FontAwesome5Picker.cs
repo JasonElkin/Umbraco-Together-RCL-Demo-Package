@@ -7,7 +7,7 @@ namespace FontAwesome5PickerCodeOnly
     [DataEditor(
     alias: "fontAwesome5Picker",
     name: "Font Awesome 5 Icon Picker",
-    view: "/fontawesome-5-picker/edit.html",
+    view: "/_content/FontAwesome5PickerCodeOnly/edit.html",
     Group = "Icons",
     Icon = "icon-flag-alt")]
     public class FontAwesome5Picker : DataEditor

@@ -3,12 +3,9 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
-	  <StaticWebAssetBasePath>/fontawesome-5-picker</StaticWebAssetBasePath>
+	  <!-- net5.0 bug? -->
+	  <!--<StaticWebAssetBasePath>/fontawesome-5-picker</StaticWebAssetBasePath>-->
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Remove="package.manifest" />
-  </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="package.manifest" />
