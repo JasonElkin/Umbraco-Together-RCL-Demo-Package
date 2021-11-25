@@ -8,6 +8,7 @@
         "valueType": "STRING",
         "view": "/fontawesome-5-picker/edit.html"
       },
+      "group": "Icons",
       "icon": "icon-flag-alt"
     }
   ]

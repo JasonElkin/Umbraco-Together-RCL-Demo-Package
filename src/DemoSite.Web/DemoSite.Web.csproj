@@ -18,10 +18,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\FontAwesome5Picker\FontAwesome5Picker.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
         <Content Include="App_Plugins/**" CopyToOutputDirectory="Always" />
         <Content Include="umbraco/**" CopyToOutputDirectory="Always" />
         <Content Remove="umbraco/Data/**" />
@@ -29,6 +25,10 @@
         <Content Remove="umbraco/mediacache/**" />
         <Content Remove="umbraco/models/**" />
         <Compile Include="umbraco/models/**" Exclude="**/*.flag" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FontAwesome5PickerCodeOnly\FontAwesome5PickerCodeOnly.csproj" />
     </ItemGroup>
 
     <PropertyGroup>
